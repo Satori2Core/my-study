@@ -1,0 +1,30 @@
+{
+  "notes_directory": "E:\\Yang\\learn\\my-study",
+  "current_topic": "agent",
+  "topics": [
+    {
+      "name": "agent",
+      "title": "Agent 技能系统"
+    },
+    {
+      "name": "go",
+      "title": "Go语言"
+    },
+    {
+      "name": "mysql",
+      "title": "MySQL"
+    },
+    {
+      "name": "redis",
+      "title": "Redis"
+    },
+    {
+      "name": "linux",
+      "title": "Linux"
+    },
+    {
+      "name": "docker",
+      "title": "Docker"
+    }
+  ]
+}

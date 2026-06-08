@@ -1,0 +1,57 @@
+# IDE 配置文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Trae IDE 临时文件
+.trae/cache/
+.trae/logs/
+.trae/temp/
+
+# 日志文件
+*.log
+logs/
+
+# 临时文件
+tmp/
+temp/
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# 编译产物
+*.o
+*.a
+*.so
+*.dll
+*.exe
+
+# Go 编译产物
+go.sum
+go.mod
+vendor/
+bin/
+build/
+
+# Node.js
+node_modules/
+package-lock.json
+yarn.lock
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.Python
+
+# 敏感配置（如果有）
+.env
+.env.local
+.env.*.local
+
+# 备份文件
+*.bak
+*.backup
