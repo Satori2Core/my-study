@@ -1,0 +1,33 @@
+# ==================== 智能旅行助手配置 ====================
+# 
+# 使用说明：
+# 1. 复制此文件为 config.yaml
+# 2. 填入你的API密钥
+# 3. 设置 use_real_api 控制是否使用真实API
+
+# ==================== 总开关 ====================
+# true: 使用真实API调用（需要有效的API密钥）
+# false: 使用模拟数据（无需API密钥，适合学习和测试）
+use_real_api: false
+
+# ==================== 大模型配置 ====================
+model:
+  # 豆包/火山引擎配置
+  api_key: "your-volcengine-api-key"
+  base_url: "https://ark.cn-beijing.volces.com/api/v3/"
+  model_name: "doubao-1-5-lite-32k-250115"
+  
+  # 如果使用OpenAI，修改为：
+  # api_key: "your-openai-api-key"
+  # base_url: "https://api.openai.com/v1/"
+  # model_name: "gpt-4o-mini"
+
+# ==================== 搜索API配置 ====================
+# 用于景点推荐的真实搜索（仅当 use_real_api=true 时生效）
+search:
+  tavily_api_key: "your-tavily-api-key"
+
+# ==================== Agent配置 ====================
+agent:
+  max_iterations: 5  # 最大思考轮数
+  verbose: true      # 是否打印详细过程

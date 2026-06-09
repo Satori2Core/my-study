@@ -1,0 +1,14 @@
+# 智能旅行助手依赖
+# 最小依赖，适合初学者学习
+
+# 大模型API客户端
+openai>=1.0.0
+
+# HTTP请求库（用于真实天气API）
+requests>=2.28.0
+
+# YAML配置文件解析
+pyyaml>=6.0
+
+# 可选：真实搜索API（仅当使用真实模式时需要）
+# pip install tavily-python
